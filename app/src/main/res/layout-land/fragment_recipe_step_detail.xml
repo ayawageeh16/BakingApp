@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/videoPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:resize_mode="fill">
+    </com.google.android.exoplayer2.ui.PlayerView>
+
+    <TextView
+        android:id="@+id/no_video"
+        android:layout_width="match_parent"
+        android:layout_height="249dp"
+        android:text="@string/no_video_available"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:background="@color/cardview_dark_background"
+        android:textColor="@color/cardview_light_background"/>
+</RelativeLayout>

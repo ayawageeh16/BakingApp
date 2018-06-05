@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Baking</string>
+    <string name="serving">Serving</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="steps">Steps</string>
+
+    <string name="no_video_available">No Video Available</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="loading">LOADING…</string>
+    <string name="no_internet">No Internet!</string>
+    <string name="retry">Retry</string>
+
+    <string name="recipe_thumbnail">Recipe Thumbnail</string>
+    <string name="step_thumbnail">Step thumbnail</string>
+    <string name="credit">Credit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_widget">Add widget</string>
+</resources>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryLight"
+    android:background="@color/colorPrimary"
     android:padding="@dimen/widget_margin">
 
     <TextView
@@ -15,16 +15,17 @@
         android:layout_margin="8dp"
         android:contentDescription="@string/appwidget_text"
         tools:text="@string/appwidget_text"
-        android:textColor="@color/colorPrimary"
-        android:textSize="18sp"
+        android:textColor="@color/recipeNameColor"
+        android:textSize="25sp"
         android:textStyle="bold|italic" />
 
     <TextView
         android:id="@+id/recipe_ingredients"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/colorPrimaryText"
         android:layout_margin="8dp"
+        android:textSize="20dp"
         android:layout_below="@+id/recipe_name"
         tools:text="@string/appwidget_text" />
 
